@@ -1,0 +1,36 @@
+# Local development dependencies (outside Docker)
+# Install with: pip install -r requirements.txt
+
+# CLI Tools
+kafka-python==2.0.2           # Kafka producer/consumer
+pandas==2.1.0                 # Data manipulation
+pyarrow==14.0.0               # Parquet file format
+redis==5.0.0                  # Redis client
+
+# Testing
+pytest==7.4.2                 # Test framework
+pytest-cov==4.1.0             # Coverage reports
+
+# API Testing
+requests==2.31.0              # HTTP client
+httpx==0.25.0                 # Async HTTP client
+
+# Vector Database
+qdrant-client==2.7.0           # Qdrant Python client
+
+# Monitoring
+prometheus-client==0.18.0      # Prometheus metrics (local use)
+
+# Workflow Orchestration
+prefect==2.14.0                # Prefect workflow engine
+
+# LLM / ML Observability
+langsmith==0.0.83              # LangSmith tracing (optional)
+mlflow==2.10.0                 # Model tracking (optional)
+
+# Embedding Models (if running locally)
+sentence-transformers==2.2.2   # Embedding models (optional, usually on Kaggle)
+
+# Development Tools
+python-dotenv==1.0.0           # Load .env files
+ipython==8.17.2                # Enhanced Python shell
